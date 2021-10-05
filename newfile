@@ -11,9 +11,6 @@
           group: users,admin
           shell: /bin/bash
           home: /home/weblogic
-
-      - name: install httpd
-        yum:
           name: httpd
           state: installed
         
